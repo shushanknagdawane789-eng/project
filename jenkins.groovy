@@ -19,7 +19,7 @@ pipeline {
             steps{
                 sh'''
                 cd frontend
-                aws s3 sync dist/ s3://cbdffssdz-front12end-project-bux/ 
+                 shushank-project-bucket-2026
                 '''
             }
         }
