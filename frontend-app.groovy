@@ -18,7 +18,7 @@ pipeline{
             steps{
                 withCredentials([aws(accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'aws_creds', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY')]) {
                     sh '''
-                       aws s3 sync dist/ s3://cblkdfdnewcjdnd-project-bux/ 
+                       shushank-project-bucket-2026
                     '''
                 } 
             }
